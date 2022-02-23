@@ -86,13 +86,13 @@ async def ping(e):
         start = datetime.now()
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        pingop =             f"😁 🇵 🇴 🇳 🇬 !\n\n♡︎ `{ms}` 𝗺𝘀 ♡︎"                   
+        pingop =             f"🇸 🇦 🇲 🇺 🇷 🇦 🇮  🇵 🇴 🇳 🇬 💢 !\n\n♡︎ `{ms}` 𝗺𝘀 ♡︎"                   
         await fuk.edit(pingop)
 
 
 # ALIVE
 
-SAM_PIC = ALIVE_PIC if ALIVE_PIC else "https://telegra.ph/file/c6f99c0b68ff07439ed72.jpg"
+SAM_PIC = ALIVE_PIC if ALIVE_PIC else "https://te.legra.ph/file/9012a958e07362727ae19.jpg.jpg"
 
 
 DEADLY = "🔥 ᴅᴇᴀᴅʟʏ sᴘᴀᴍ ʙᴏᴛ 🔥 \n\n"
@@ -123,7 +123,7 @@ async def alive(event):
    
 # help
 
-HELP_PIC = "https://telegra.ph/file/c6f99c0b68ff07439ed72.jpg"
+HELP_PIC = "https://te.legra.ph/file/9012a958e07362727ae19.jpg.jpg"
 
 DEADLY = "🔥 DEADLY SPAM BOT 🔥\n\n"
  
@@ -147,7 +147,7 @@ DEADLY += f" `.dm` - `.dmraid` - `.dmspam` \n\n `.addecho` - `.rmecho` \n\n"
 
 DEADLY += f"All Cmds Uploaded : [•HERE•](https://t.me/DEADLY_SPAMMER/88) \n\n"
                                                          
-DEADLY += f"© @OFFICIAL_SAMEER | @deadly_spam_bot\n"
+DEADLY += f"© @Ronin_Fighters_Fd | @deadly_spam_bot\n"
 
 
 @SAM.on(events.NewMessage(incoming=True, pattern=r"\%shelp(?: |$)(.*)" % hl))
