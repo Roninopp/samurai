@@ -115,7 +115,7 @@ async def _(e):
         DEADLYSPAM = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         if len(e.text) > 7:
             bc = DEADLYSPAM[0]
-            text = "Joining...."
+            text = "PAPA SAMURAI IS COMING...."
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await e.client(ImportChatInviteRequest(bc))
